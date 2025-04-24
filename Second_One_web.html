@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: whitesmoke;
+            text-align: center;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background-color: #003366;
+            color: white;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            width: 50px;
+            margin-right: 10px;
+        }
+        .logo h1 {
+            font-size: 24px;
+        }
+        
+        nav {
+            background-color: #00509E;
+            padding: 10px 0;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            background-image: url("C://Users/ar007/Downloads/college.jpg");
+            background-size:cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 36px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .buttons {
+            margin: 30px 0;
+        }
+        .buttons button {
+            padding: 15px 20px;
+            margin: 10px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            color: white;
+            border-radius: 5px;
+        }
+        .apply { 
+            background-color: #28a745;
+         }
+        .contact { 
+            background-color: #007bff;
+         }
+        .visit { 
+            background-color: #ff5733;
+         }
+       
+        .latest-news {
+            background-color: #f8f8f8;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .latest-news a {
+            text-decoration: none;
+            color: #00509E;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <img src="C:/Users/ar007/Downloads/images_logo.png" alt="College Logo">
+            <h1>Sardar Vallabhbhai Institute of Technology</h1>
+        </div>
+    </header>
+
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Academics</a></li>
+            <li><a href="#">Admissions</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+    <div class="hero">
+        <h2>Innovate, Inspire, Achieve</h2>
+    </div>
+
+    
+    <div class="buttons">
+        <button class="apply">Learn How to Apply</button>
+        <button class="contact">Contact Us</button>
+        <button class="visit">Visit Our Campus</button>
+    </div>
+
+    
+    <div class="latest-news">
+        <a href="#">Latest News: Admissions for 2025 Now Open! Click Here to Apply.</a>
+    </div>
+
+</body>
+</html>
